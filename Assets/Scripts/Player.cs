@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
 
     }
 
-    private void SendHealthData(int health)
+    public void SendHealthData(int health)
     {
         if (onUpdateHealth != null)
         {

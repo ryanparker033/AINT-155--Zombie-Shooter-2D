@@ -81,7 +81,7 @@ MonoBehaviour:
   subdivisions: 2
   iterations: 2
   strength: 0.5
-  uniformLength: 1
+  uniformLength: 0
   maxSegmentLength: 2
   bezierTangentLength: 0.4
   offset: 0.2
@@ -169,7 +169,7 @@ MonoBehaviour:
   canSearch: 1
   canMove: 1
   speed: 3
-  orientation: 0
+  orientation: 1
   enableRotation: 1
   rotationSpeed: 10
   interpolatePathSwitches: 1
@@ -298,5 +298,5 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
