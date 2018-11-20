@@ -13,7 +13,8 @@ public class MouseSmoothLook2D : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
         Vector3 target = theCamera.ScreenToWorldPoint(Input.mousePosition);
         Vector3 difference = target - transform.position;
 
