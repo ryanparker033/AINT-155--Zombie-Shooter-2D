@@ -175,12 +175,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &190749855 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114542322722148290, guid: 5c0327961c51a6041b2d688eaeb23994,
+--- !u!4 &190749861 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4728707281017918, guid: 5c0327961c51a6041b2d688eaeb23994,
     type: 2}
   m_PrefabInternal: {fileID: 1996435886}
-  m_Script: {fileID: 11500000, guid: 6d27277310fe59d41a055e8408d25b7a, type: 3}
 --- !u!1 &277654335
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,7 +826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a04dc663b82bd18489907a471e9ba2ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 190749861}
   smoothing: 5
 --- !u!1 &1676919482
 GameObject:
@@ -844,7 +843,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1676919483
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -910,16 +909,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114542322722148290, guid: 5c0327961c51a6041b2d688eaeb23994,
-        type: 2}
-      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114542322722148290, guid: 5c0327961c51a6041b2d688eaeb23994,
-        type: 2}
-      propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4728707281017918, guid: 5c0327961c51a6041b2d688eaeb23994, type: 2}
       propertyPath: m_LocalPosition.x
       value: -7.69
@@ -952,47 +941,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 50441423380238876, guid: 5c0327961c51a6041b2d688eaeb23994,
+    - target: {fileID: 114417622603860824, guid: 5c0327961c51a6041b2d688eaeb23994,
         type: 2}
-      propertyPath: m_Constraints
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114542322722148290, guid: 5c0327961c51a6041b2d688eaeb23994,
-        type: 2}
-      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114542322722148290, guid: 5c0327961c51a6041b2d688eaeb23994,
-        type: 2}
-      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114542322722148290, guid: 5c0327961c51a6041b2d688eaeb23994,
-        type: 2}
-      propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114542322722148290, guid: 5c0327961c51a6041b2d688eaeb23994,
-        type: 2}
-      propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114542322722148290, guid: 5c0327961c51a6041b2d688eaeb23994,
-        type: 2}
-      propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: theCamera
       value: 
-      objectReference: {fileID: 190749855}
-    - target: {fileID: 114542322722148290, guid: 5c0327961c51a6041b2d688eaeb23994,
-        type: 2}
-      propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TakeDamage
-      objectReference: {fileID: 0}
-    - target: {fileID: 114542322722148290, guid: 5c0327961c51a6041b2d688eaeb23994,
-        type: 2}
-      propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114809591216736334, guid: 5c0327961c51a6041b2d688eaeb23994, type: 2}
+      objectReference: {fileID: 1569384746}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5c0327961c51a6041b2d688eaeb23994, type: 2}
   m_IsPrefabParent: 0
