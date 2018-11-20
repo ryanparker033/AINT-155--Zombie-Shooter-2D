@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Zombie Shooter Level 1");
     }
 
     public void EndGame()

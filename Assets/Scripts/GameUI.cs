@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class GameUI : MonoBehaviour
 {
@@ -29,7 +31,15 @@ public class GameUI : MonoBehaviour
 
     private void UpdateScore(int theScore)
     {
+
         playerScore += theScore;
+
+
+        if (playerScore >= 100)
+        {
+            SceneManager.LoadScene("Game Over");
+        }
+
         scoreText.text = "SCORE" + playerScore.ToString();
     }
 
