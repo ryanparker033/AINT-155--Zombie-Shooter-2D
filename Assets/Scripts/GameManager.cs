@@ -19,4 +19,11 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Main Menu");
     }
+
+
+    public void Controls()
+    {
+        SceneManager.LoadScene("Controls");
+    }
+    
 }
