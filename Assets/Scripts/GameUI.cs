@@ -36,6 +36,7 @@ public class GameUI : MonoBehaviour
 
 
         if (playerScore >= 100)
+
         {
             SceneManager.LoadScene("Game Over");
         }
