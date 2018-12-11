@@ -26,7 +26,7 @@ public class GameUI : MonoBehaviour
 
     private void UpdateHealthBar(int health)
     {
-        healthbar.value = health;  
+        healthbar.value = health;       
     }
 
     private void UpdateScore(int theScore)

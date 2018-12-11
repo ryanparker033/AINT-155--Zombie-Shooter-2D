@@ -1213,12 +1213,12 @@ Prefab:
     - target: {fileID: 114417622603860824, guid: 5c0327961c51a6041b2d688eaeb23994,
         type: 2}
       propertyPath: smoothing
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114116595568309700, guid: 5c0327961c51a6041b2d688eaeb23994,
         type: 2}
       propertyPath: fireTime
-      value: 0.09
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 114542322722148290, guid: 5c0327961c51a6041b2d688eaeb23994,
         type: 2}
@@ -1234,8 +1234,13 @@ Prefab:
         type: 2}
       propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 11500000, guid: b1037464ee769d34ab6a3757cfff40a1,
+      objectReference: {fileID: 11500000, guid: 925c678cbe0c57e498231a5520a058b0,
         type: 3}
+    - target: {fileID: 114056666989835842, guid: 5c0327961c51a6041b2d688eaeb23994,
+        type: 2}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5c0327961c51a6041b2d688eaeb23994, type: 2}
   m_IsPrefabParent: 0
