@@ -8,14 +8,20 @@ public class AddScore : MonoBehaviour
     public static event SendScore onSendScore;
 
     public int score = 10;
+    private bool scoreSent = false;
 
-    public void OnDestroy()
+    private void OnAddScore()
     {
         if (onSendScore != null)
         {
-            onSendScore(score);
+            if (!scoreSent)
+            {
+                scoreSent = true;
+                onSendScore(score);
+            }
         }
     }
+    
 
 
 
