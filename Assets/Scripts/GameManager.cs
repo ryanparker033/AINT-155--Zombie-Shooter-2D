@@ -25,5 +25,13 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Controls");
     }
+
+    public void Winscreen()
+    {
+        SceneManager.LoadScene("Winning Game Screen");
+    }
+        
+
+
     
 }
