@@ -52,6 +52,7 @@ public class HighScoreUI : MonoBehaviour
         for (int i = 0; i < totalHighScores; i++)
         {
             if (highscore.scores[i] == score) 
+
             {
                 highscoreText.text += "<color=#FF0000FF>" + (i + 1).ToString() + "."
                     + highscore.scores[i].ToString() + "<color>\n";
