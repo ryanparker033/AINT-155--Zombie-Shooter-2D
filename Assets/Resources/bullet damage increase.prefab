@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 50423382761043048}
   - component: {fileID: 114478901412148700}
   m_Layer: 8
-  m_Name: bullet
+  m_Name: bullet damage increase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,8 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3fa5099806659d4bbc036e3d03e6df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 100
-  damage: 10
+  moveSpeed: 1500
+  damage: 50
 --- !u!212 &212048538525002486
 SpriteRenderer:
   m_ObjectHideFlags: 1
