@@ -36,11 +36,11 @@ public class GameUI : MonoBehaviour
         playerScore += theScore;
 
 
-        if (playerScore >= 100)
+        //if (playerScore >= 100)
 
-        {
-            SceneManager.LoadScene("Game Over");
-        }
+        //{
+        //    SceneManager.LoadScene("Game Over");
+        //}
 
         scoreText.text = "SCORE" + playerScore.ToString();
     }
